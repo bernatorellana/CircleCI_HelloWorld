@@ -33,6 +33,7 @@ public class ProvinciaTest {
         Municipi m1 = new Municipi(1, "Igualada",p1);
         assertTrue(p1.equals(m1.getProvincia()));
         assertEquals(1, p1.getNumMunicipis());
+        fail("XXW");
     }
 
     @Test
